@@ -16,12 +16,12 @@ void main(List<String> args) {
   String expression7 = '20x + 7y'; // 340
   String expression8 = '20X + 7y'; // throws 'Unknown variable: X'
 
-  test(expression1, varMap, evaluator);
-  test(expression2, varMap, evaluator);
-  test(expression3, varMap, evaluator);
-  test(expression4, varMap, evaluator);
-  test(expression5, varMap, evaluator);
-  test(expression6, varMap, evaluator);
-  test(expression7, varMap, evaluator);
-  test(expression8, varMap, evaluator);
+  check(expression1, varMap, evaluator);
+  check(expression2, varMap, evaluator);
+  check(expression3, varMap, evaluator);
+  check(expression4, varMap, evaluator);
+  check(expression5, varMap, evaluator);
+  check(expression6, varMap, evaluator);
+  check(expression7, varMap, evaluator);
+  check(expression8, varMap, evaluator);
 }

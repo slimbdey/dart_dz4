@@ -37,7 +37,7 @@ bool isNumber(String char) {
 bool isIdentifier(String token) =>
     RegExp(r'^[A-Za-z_][A-Za-z0-9_]*$').hasMatch(token);
 
-void test(String expr, Map<String, int> varMap,
+void check(String expr, Map<String, int> varMap,
     int Function(String s, Map<String, int> varMap) handler) {
   try {
     int result = handler(expr, varMap);
