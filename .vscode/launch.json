@@ -7,7 +7,9 @@
     {
       "name": "dz4",
       "request": "launch",
-      "type": "dart"
+      "type": "dart",
+      "program": "bin/dz4.dart",
+      "cwd": "${workspaceFolder}"
     }
   ]
 }
