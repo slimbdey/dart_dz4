@@ -1,5 +1,5 @@
 import 'utils/helpers.dart';
-import 'utils/index.dart';
+import 'utils/handlers.dart';
 
 void main(List<String> args) {
   final varMap = <String, int>{

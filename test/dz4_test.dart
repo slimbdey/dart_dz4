@@ -1,4 +1,4 @@
-import 'package:dz4/utils/index.dart';
+import '../bin/utils/handlers.dart';
 import 'package:test/test.dart';
 
 void main() {
